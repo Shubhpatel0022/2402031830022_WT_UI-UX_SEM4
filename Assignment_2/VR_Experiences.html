@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Experiences - VR Science Lab</title>
+    <style>
+         body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('images/background.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            color: black;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .btn {
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+    
+            padding: 0 50px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 800px;
+        }
+        .experiment-card {
+            background: #4FA8FF;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            width: 60%;
+            margin-top: 20px;
+        }
+        .experiment-card h2 {
+            font-size: 24px;
+        }
+        .cta-btn {
+            background: white;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            float:right ;
+        }
+        .cta-btn a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">VR Science Lab</div>
+        <ul class="nav-links">
+            <li><a href="/Home.html">Home</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/Features.html">Features</a></li>
+            <li><a href="/VR_Experiences.html">VR Experiences</a></li>
+            <li><a href="/Contact.html">Contact</a></li>
+        </ul>
+        <button class="btn"><a href="/Login.html">Login/Signup</a></button>
+    </div>
+    
+    <div class="hero">
+        <h1>Virtual Reality Science Experiment</h1>
+        <p>Conduct hands-on experiments in an immersive 3D environment</p>
+        <div class="experiment-card">
+            <h2>Experiment: Mixing Chemical Reactions in VR</h2>
+            <p><strong>Objective:</strong> Learn about reactions and safe lab procedures</p>
+            <p><strong>Process:</strong> Step-by-step interactive lab simulation</p>
+            <button class="cta-btn"><a href="Login.html">Start Experiment</a></button>
+        </div>
+    </div>
+
+</body>
+</html>
